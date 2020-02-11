@@ -21,7 +21,6 @@ namespace AgRiskDaemonTest.Controllers
         private readonly PreguntasDiagnosticasService preguntasDiagnosticasService;
         //private const string fileID = "01F6EBM7BIGKQPV7OSRJE32JQYC5MQG5OJ";
 
-
         public ModeloScoreCultivoController(ILogger<ModeloScoreCultivoController> logger)
         {
             _logger = logger;
