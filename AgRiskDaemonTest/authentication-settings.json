@@ -1,0 +1,7 @@
+{
+  "Instance": "https://login.microsoftonline.com/{0}",
+  "Tenant": "smtpcecarlos4gmail.onmicrosoft.com",
+  "ClientId": "02bf26dd-6d75-4cf1-9a34-2e9fb32a4e2b",
+  "ClientSecret": ".7c9/6pUrXPe[HjaKNUx2NjkQgVp[ngY",
+  "CertificateName": "[Or instead of client secret: Enter here the name of a certificate (from the user cert store) as registered with your application]"
+}

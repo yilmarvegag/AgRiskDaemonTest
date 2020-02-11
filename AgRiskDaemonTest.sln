@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgRiskDaemonTest", "AgRiskDaemonTest\AgRiskDaemonTest.csproj", "{56965D97-1856-4272-981B-125D5168C4F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56965D97-1856-4272-981B-125D5168C4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56965D97-1856-4272-981B-125D5168C4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56965D97-1856-4272-981B-125D5168C4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56965D97-1856-4272-981B-125D5168C4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {870E1C63-A171-4652-8BDB-CBD8D4BDEE3C}
+	EndGlobalSection
+EndGlobal
