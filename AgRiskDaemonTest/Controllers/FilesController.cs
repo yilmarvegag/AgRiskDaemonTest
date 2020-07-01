@@ -22,10 +22,30 @@ namespace AgRiskDaemonTest.Controllers
         }
 
 
-        // GET: api/Files
+
+        /// <summary>
+        /// Creates a TodoItem.
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Todo
+        ///     {
+        ///        "id": 1,
+        ///        "name": "Item1",
+        ///        "isComplete": true
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="id"></param>
+        /// <returns>A newly created TodoItem</returns>
+        /// <response code="201">Returns the newly created item</response>
+        /// <response code="400">If the item is null</response>  
         [HttpGet]
         [Produces("application/json")]
-        public async Task<ActionResult> Get()
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> Get(long id)
         {
             var filesCollection = await AuthenticationHelper.GetFilesAsync();
 
